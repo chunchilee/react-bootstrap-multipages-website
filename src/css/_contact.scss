@@ -1,0 +1,39 @@
+/* Contact CSS */
+.get-in-touch {
+  .card {
+    background-color: var(--white-color);
+    min-height: 36rem;
+    padding: 3rem;
+    border-radius: 2rem;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    i {
+      font-size: 8rem;
+      margin-bottom: 3rem;
+    }
+    h4 {
+      font-weight: 800;
+    }
+    p {
+      color: var(--black-color);
+      &:last-child {
+        font-family: var(--secondary-font);
+        font-weight: 700;
+      }
+    }
+  }
+}
+.form-section {
+  padding: 10rem;
+  background-color: var(--white-color);
+  box-shadow: var(--box-shadow);
+  border-radius: 2rem;
+  .form-control {
+    height: 4.5rem;
+    border: 0.1rem solid var(--light-color);
+    font-size: 1.5rem;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}

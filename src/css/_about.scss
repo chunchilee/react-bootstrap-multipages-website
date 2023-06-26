@@ -1,0 +1,42 @@
+/* Abilities CSS */
+.abilities-wrapper {
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      p {
+        color: var(--black-color);
+      }
+    }
+  }
+  h3 {
+    color: var(--black-color);
+  }
+}
+/* Team CSS */
+.team-wrapper {
+  .card {
+    .team-img {
+      width: 15rem;
+      height: 15rem;
+      margin: 0 auto;
+      border-radius: 50%;
+      border: 0.5rem solid var(--primary-color);
+      img {
+        border-radius: 50%;
+      }
+    }
+    .team-detail{
+      h5{
+        font-weight: 800;
+        color: var(--black-color);
+        margin-bottom: 0;
+        padding-top: 1.5rem;
+      }
+      p{
+        color: var(--black-color);
+        margin: 0;
+      }
+    }
+  }
+}
