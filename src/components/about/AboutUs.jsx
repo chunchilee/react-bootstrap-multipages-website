@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import ArrowImg from "../../assets/arrow.svg";
 const AboutUs = () => {
   return (
-    <section className="parallax parallax-main img1  ">
+    <section className="parallax parallax-main img1 mt-3 ">
       <div className="main-wrapper wrapper ">
         <div className="container"></div>
         <div className="container-fluid px-lg-0">
