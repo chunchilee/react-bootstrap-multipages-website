@@ -5,7 +5,7 @@ import topImg from "../../assets/banner/top-img 1.png";
 const Banner = () => {
   return (
     <section className="banner-wrapper wrapper">
-      <div className="container">
+      <div className="container ">
         <div className="row">
           <div className="col-lg-6 mb-5 order-lg-1 order-2">
             <h2>

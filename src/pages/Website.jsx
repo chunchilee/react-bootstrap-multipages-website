@@ -7,11 +7,11 @@ const Website = () => {
   const isTrue = false;
   return (
     <>
-      <section className="parallax parallax-main img1">
-        <div className="main-wrapper wrapper">
+      <section className="parallax parallax-main img1 ">
+        <div className="main-wrapper wrapper ">
           <div className="container">
             <div className="row mb-5 justify-content-center">
-              <div className="col-lg-9">
+              <div className="col-lg-9 mt-5">
                 <div className="sec-title">
                   <h1>WEBSITE DESIGN</h1>
                   <h4>DESIGNED WITH PRECISION</h4>

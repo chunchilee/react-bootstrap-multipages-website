@@ -50,7 +50,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="container-fluid pt-5 px-0">
+        {/* <div className="container-fluid pt-5 px-0">
           <div className="row">
             <div className="col-12">
               <iframe
@@ -65,7 +65,7 @@ const Footer = () => {
               ></iframe>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="container-fluid copyright-section">
           <p> &copy; 2021 Code4Education. All Rights Reserved</p>
         </div>

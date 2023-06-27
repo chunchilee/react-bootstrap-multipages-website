@@ -8,6 +8,19 @@
       width: 100%;
     }
   }
+  .process-wrapper {
+    .process-content {
+      padding: 4rem 1rem;
+    }
+  }
+  .get-in-touch {
+    .card {
+      padding: 1rem;
+    }
+  }
+  .form-section {
+    padding: 7rem;
+  }
 }
 
 @media (max-width: 991.5px) {
@@ -29,21 +42,26 @@
   .banner-wrapper {
     margin-top: 4rem;
     padding: 4rem 2rem;
-    // min-height: 730px;
+    min-height: 730px;
   }
   /* Services */
   .parallax {
     &.parallax-main {
       background-size: cover;
     }
-    .main-wrapper {
-      margin-top: 20vh;
-      .black-card {
-        left: -226px;
-        .right {
-          right: -226px;
-        }
+  }
+  .main-wrapper {
+    margin-top: 0vh;
+    .black-card {
+      left: -226px;
+      &.right {
+        right: -226px;
       }
+    }
+  }
+  .get-in-touch {
+    .card {
+      min-height: 350px;
     }
   }
 }
@@ -54,19 +72,29 @@
     font-size: 8px;
   }
   // /* Banner */
-  // .banner-wrapper{
-  //   min-height: 550px;
+  // .banner-wrapper {
+  // min-height: 550px;
   .parallax:not(.parallax-main) {
     background-size: cover;
+  }
+  .parallax {
+    &.parallax-1 {
+      background-size: cover;
+    }
   }
   .main-wrapper {
     .black-card {
       left: 5%;
       width: 90%;
-      .right {
+      &.right {
         left: 5%;
         width: 90%;
       }
+    }
+  }
+  .get-in-touch {
+    .card {
+      min-height: 310px;
     }
   }
 }
@@ -77,9 +105,6 @@
     font-size: 7px;
   }
   .parallax {
-    &.parallax-main {
-      background-size: cover;
-    }
     &.img2,
     &.img3,
     &.img4,
@@ -87,7 +112,7 @@
       height: 408px;
     }
     .main-wrapper {
-      margin-top: 15vh;
+      margin-top: 0;
     }
   }
 }

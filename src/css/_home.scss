@@ -90,6 +90,7 @@
 /* Banner Section */
 .banner-wrapper {
   margin-top: 8rem;
+  display: inline-block;
   background-image: url("../assets//banner//banner.webp");
   background-size: cover;
   background-position: center;
@@ -155,11 +156,11 @@
     padding: 2.5rem;
     text-align: left;
     z-index: 1;
-  }
-  .right {
-    // left: unset;
-    // right: -400px ;
-    left: 400px;
+    &.right {
+      left: unset;
+      right: -400px;
+      // left: 400px;
+    }
   }
 }
 /* Process CSS */

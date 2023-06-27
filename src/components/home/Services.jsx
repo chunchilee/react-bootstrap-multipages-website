@@ -4,8 +4,8 @@ import ArrowImg from "../../assets/arrow.svg";
 
 const Services = () => {
   return (
-    <section className="parallax parallax-main img1">
-      <div className="main-wrapper wrapper ">
+    <section className="parallax parallax-main img1 ">
+      <div className="main-wrapper wrapper  ">
         <div className="container">
           <div className="row mb-5">
             <div className="col-12">
@@ -28,8 +28,8 @@ const Services = () => {
                   <p>
                     Our award-winning designers are here to create the perfect
                     online presence for you. We bring experience as well as a
-                    design that stands out to all websites we create for brands
-                    both large and small.
+                    design that stands out to all websites we create for｀
+                    brands both large and small.
                   </p>
                   <Link to="/" className="view-link">
                     Learn More <img src={ArrowImg} alt="arrowImg" />

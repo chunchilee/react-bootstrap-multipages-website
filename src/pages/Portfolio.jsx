@@ -8,11 +8,11 @@ import W4Img from "../assets/work/w4.webp";
 const Portfolio = () => {
   return (
     <>
-      <section className="parallax parallax-main img1">
-        <div className="main-wrapper wrapper">
+      <section className="parallax parallax-main img1 ">
+        <div className="main-wrapper wrapper ">
           <div className="container">
             <div className="row mb-5 justify-content-center">
-              <div className="col-lg-9">
+              <div className="col-lg-9 mt-5">
                 <div className="sec-title">
                   <h1>Our latest Projects</h1>
                   <p className="text-black">

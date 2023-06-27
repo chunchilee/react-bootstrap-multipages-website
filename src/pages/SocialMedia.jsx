@@ -7,13 +7,13 @@ const SocialMedia = () => {
   const isTrue = false;
   return (
     <>
-      <section class="parallax parallax-main img1">
-        <div class="main-wrapper wrapper">
+      <section class="parallax parallax-main img1 ">
+        <div class="main-wrapper wrapper ">
           <div class="container">
             <div class="row mb-5 justify-content-center">
-              <div class="col-lg-9">
+              <div class="col-lg-9 mt-5">
                 <div class="sec-title">
-                  <h1>SOCIAL MEDIA MARKETING</h1>
+                  <h1>SOCIAL MEDIA </h1>
                   <h4>CREATE CONTENT WITH MEASURABLE IMPACT</h4>
                   <p class="text-black">
                     Nowadays, a strong online presence is essential to ensure

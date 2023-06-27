@@ -7,7 +7,7 @@ const Contact = () => {
         <div className="main-wrapper wrapper pb-0">
           <div className="container">
             <div className="row mb-5 justify-content-center">
-              <div className="col-lg-9 mb-5">
+              <div className="col-lg-9 mb-5 mt-5">
                 <div className="sec-title">
                   <h1>GET IN TOUCH</h1>
                   <h4>DESIGN YOUR STORY</h4>

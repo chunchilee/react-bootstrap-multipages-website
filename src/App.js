@@ -5,7 +5,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Footer from "./components/common/Footer";
 import Navbar from "./components/common/Navbar";
-import Whatsapp from "./components/common/Whatsapp";
+// import Whatsapp from "./components/common/Whatsapp";
 import "./css/App.scss";
 import About from "./pages/About";
 import Advertising from "./pages/Advertising";
@@ -32,7 +32,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
-        <Whatsapp />
+        {/* <Whatsapp /> */}
       </BrowserRouter>
     </>
   );
