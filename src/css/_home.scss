@@ -28,7 +28,8 @@
     .nav-item {
       &:hover > .nav-link {
         // color: red;
-        color: var(--primary-color);
+        // color: var(--primary-color);
+        color:yellow;
         &::after {
           color: var(--primary-color);
         }
