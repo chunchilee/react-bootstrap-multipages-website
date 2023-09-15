@@ -42,7 +42,8 @@
         padding: 0.5rem 2rem;
         margin: 0 0.2rem;
         &:hover {
-          color: var(--primary-color);
+          // color: var(--primary-color);
+          color:pink;
         }
       }
       .show {
@@ -73,7 +74,8 @@
           font-family: var(--secondary-font);
           &:focus,
           &:hover {
-            color: var(--primary-color);
+            // color: var(--primary-color);
+            color:red;
             background-color: transparent;
           }
         }
